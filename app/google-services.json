@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1035152019418",
+    "firebase_url": "https://wingz-6cf43.firebaseio.com",
+    "project_id": "wingz-6cf43",
+    "storage_bucket": "wingz-6cf43.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1035152019418:android:275f4dfff0c8f35904fae3",
+        "android_client_info": {
+          "package_name": "com.wingzapp.wingz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1035152019418-rjas62gr26ho4svt9v8frut2c4nj8r3q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.wingzapp.wingz",
+            "certificate_hash": "cedb825596933e2507edf45638fa0b79cad2ced9"
+          }
+        },
+        {
+          "client_id": "1035152019418-0nv7tipb0vem345h2g80r1vmjrr9tss0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzAWjAWRCEJusgEPSM0DNK-Q1Lke-EBiY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1035152019418-0nv7tipb0vem345h2g80r1vmjrr9tss0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

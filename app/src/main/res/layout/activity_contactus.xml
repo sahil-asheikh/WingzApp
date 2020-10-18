@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#eff2f7"
+    tools:context=".Contactus">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="267dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/rounded_corner">
+
+        <ImageView
+            android:id="@+id/profileimg"
+            android:layout_width="106dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10sp"
+            android:contentDescription="@string/title_notifications"
+            android:scaleType="centerCrop"
+            android:src="@drawable/roundlogo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/app_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/profileimg"
+            android:layout_centerHorizontal="true"
+            android:text="@string/app_name"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="28sp"
+            android:textStyle="bold|normal"
+            app:layout_constraintTop_toBottomOf="@+id/profileimg" />
+
+        <ImageButton
+            android:id="@+id/email"
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:layout_below="@+id/app_name"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="40sp"
+            android:layout_marginBottom="10sp"
+            android:background="@drawable/round_button"
+            android:backgroundTint="#FEB200"
+            android:gravity="center"
+            android:src="@android:drawable/ic_dialog_email"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/fb"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/app_name"
+            tools:ignore="ContentDescription,HardcodedText" />
+
+        <ImageButton
+            android:id="@+id/fb"
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:layout_below="@id/app_name"
+            android:layout_marginTop="40sp"
+            android:layout_marginBottom="10sp"
+            android:layout_toEndOf="@+id/email"
+            android:background="@drawable/round_button"
+            android:backgroundTint="#44609C"
+            android:scaleType="fitXY"
+            android:src="@drawable/fb"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/insta"
+            app:layout_constraintStart_toEndOf="@id/email"
+            app:layout_constraintTop_toBottomOf="@+id/app_name"
+            tools:ignore="ContentDescription,HardcodedText" />
+
+        <ImageButton
+            android:id="@+id/insta"
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:layout_below="@+id/app_name"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="40sp"
+            android:layout_marginBottom="10sp"
+            android:layout_toEndOf="@+id/fb"
+            android:background="@drawable/round_button"
+            android:scaleType="fitXY"
+            android:src="@drawable/insta"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/fb"
+            app:layout_constraintTop_toBottomOf="@+id/app_name"
+            tools:ignore="ContentDescription,HardcodedText,UnusedAttribute" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

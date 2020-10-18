@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.wingzapp.wingz">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".appInfo"></activity>
+        <activity android:name=".firstActivity" />
+        <activity android:name=".BeCse.BeCse6_fe" />
+        <activity android:name=".BeCse.BeCse6_sepm" />
+        <activity android:name=".BeCse.BeCse6_dp" />
+        <activity android:name=".BeCse.BeCse6_cn" />
+        <activity android:name=".BeCse.BeCse6_ai" />
+        <activity android:name=".BeCse.BeCse4_tfcs" />
+        <activity android:name=".BeCse.BeCse4_sp" />
+        <activity android:name=".BeCse.BeCse4_os" />
+        <activity android:name=".BeCse.BeCse4_dspd" />
+        <activity android:name=".BeCse.BeCse4_dmgt" />
+        <activity android:name=".BeCse.BeCse5_oop" />
+        <activity android:name=".BeCse.BeCse5_daa" />
+        <activity android:name=".BeCse.BeCse5_dc" />
+        <activity android:name=".BeCse.BeCse5_cg" />
+        <activity android:name=".BeCse.BeCse3_dcfm" />
+        <activity android:name=".BeCse.BeCse3_eit" />
+        <activity android:name=".BeCse.BeCse3_Cao" />
+        <activity android:name=".BeCse.BeCse3_acpld" />
+        <activity android:name=".BeCse.BeCse5_Dbms" />
+        <activity android:name=".BeCse.BeCse3_M3" />
+        <activity android:name=".Registor" />
+        <activity android:name=".Login" />
+        <activity android:name=".Contactus" />
+        <activity android:name=".Extc8QuesActivity" />
+        <activity android:name=".Extc7QuesActivity" />
+        <activity android:name=".Extc6QuesActivity" />
+        <activity android:name=".Extc5QuesActivity" />
+        <activity android:name=".Expo8QuesActivity" />
+        <activity android:name=".expo7QuesActivity" />
+        <activity android:name=".Expo6QuesActivity" />
+        <activity android:name=".Expo5QuesActivity" />
+        <activity android:name=".Civil8QuesActivity" />
+        <activity android:name=".Civil7QuesActivity" />
+        <activity android:name=".Civil6QuesActivity" />
+        <activity android:name=".Civil5QuesActivity" />
+        <activity android:name=".Cse8QuesActivity" />
+        <activity android:name=".Cse7QuesActivity" />
+        <activity android:name=".Cse6QuesActivity" />
+        <activity android:name=".Cse5QuesActivity" />
+        <activity android:name=".Mech8QuesActivity" />
+        <activity android:name=".Mech7QuesActivity" />
+        <activity android:name=".Mech6QuesActivity" />
+        <activity android:name=".Mech5QuesActivity" />
+        <activity android:name=".Extc4QuesActivity" />
+        <activity android:name=".Expo4QuesActivity" />
+        <activity android:name=".Civil4QuesActivity" />
+        <activity android:name=".Mech4QuesActivity" />
+        <activity android:name=".Cse4QuesActivity" />
+        <activity android:name=".Extc3QuesActivity" />
+        <activity android:name=".Expo3QuesActivity" />
+        <activity android:name=".Civil3QuesActivity" />
+        <activity android:name=".Mech3QuesActivity" />
+        <activity android:name=".Cse3QuesActivity" />
+        <activity android:name=".EgQuesBeActivity" />
+        <activity android:name=".EmQuesBeActivity" />
+        <activity android:name=".BceQuesBeActivity" />
+        <activity android:name=".AeeQuesBeActivity" />
+        <activity android:name=".BeeQuesBeActivity" />
+        <activity android:name=".M2QuesBeActivity" />
+        <activity android:name=".Chem2QuesBeActivity" />
+        <activity android:name=".Chem1QuesBeActivity" />
+        <activity android:name=".Phy2QuesBeActivity" />
+        <activity android:name=".Phy1QuesBeActivity" />
+        <activity android:name=".M1QuesBeActivity" />
+        <activity android:name=".SyllExpoBeActivity" />
+        <activity android:name=".SyllExtcBeActivity" />
+        <activity android:name=".SyllCivilBeActivity" />
+        <activity android:name=".SyllMechBeActivity" />
+        <activity android:name=".SyllCseBeActivity" />
+        <activity android:name=".ExpoNotesBeActivity" />
+        <activity android:name=".ExtcNotesBeActivity" />
+        <activity android:name=".CivilNotesBeActivity" />
+        <activity android:name=".MechNotesBeActivity" />
+        <activity android:name=".CseNotesBeActivity" />
+        <activity android:name=".Syll1styearActivity" />
+        <activity android:name=".ExtcQuesPprActivity" />
+        <activity android:name=".ExpoQuesPprActivity" />
+        <activity android:name=".CivilQuesPprActivity" />
+        <activity android:name=".MechQuesPprActivity" />
+        <activity android:name=".CseQuesPprActivity" />
+        <activity android:name=".FirstyearNotesBeActivity" />
+        <activity android:name=".Ques_1stBeActivity" />
+        <activity android:name=".SyllabusActivity" />
+        <activity android:name=".TimeTableActivity" />
+        <activity android:name=".NotesActivity" />
+        <activity android:name=".QuestionPaperActivity" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
